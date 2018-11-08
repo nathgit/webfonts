@@ -1,0 +1,13 @@
+@font-face{
+font-family: 'MyWebFont';
+src: url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+      url('webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+body{
+font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
+*{
+font-family: 'MyWebFont', Fallback, sans-serif;
+}

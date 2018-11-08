@@ -1,0 +1,17 @@
+@font-face{
+font-family: 'MyWebFont';
+src: url('webfont.eot'); /* IE9 compat mode*/
+src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+      url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+      url('webfont.ttf') format('truetype'), /* android, ios, safari */
+      url('webfont.svg#svgFontName') format('svg'); /* legacy ios */
+}
+
+body{
+font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
+*{
+font-family: 'MyWebFont', Fallback, sans-serif;
+}
